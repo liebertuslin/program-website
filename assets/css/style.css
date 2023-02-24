@@ -282,6 +282,9 @@ body {
 }
 
 /* features */
+.features-projects {
+	margin: 0 5rem;
+}
 .features-projects .features-header {
 	max-width: 1000px;
 	padding: 2.5rem 0;
@@ -301,7 +304,7 @@ body {
 }
 .features-card:hover {
 	border-top-color: #1A5653;
-	border-top: 10px solid #1A5653;
+	border-top: 5px solid #1A5653;
 }
 .features-card h5 {
 	color: rgba(0, 0, 0, 1);
@@ -313,7 +316,7 @@ body {
 }
 .features-card a:hover {
 	color: #46aaa5;
-	text-decoration: none;
+
 }
 .features-card span {
 	position: relative;
@@ -436,6 +439,9 @@ body {
 	}
 	.funding-desc p {
 		font-style: 13px;
+	}
+	.features-projects {
+		margin: 0 1rem;
 	}
 	.features-projects .features-header {
 		margin-top: 2rem;
