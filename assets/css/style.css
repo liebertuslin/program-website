@@ -456,7 +456,9 @@ body {
 		margin-bottom: .5rem;
 	}
 	.features-card .features-image img {
-		width: 100%;
+		width: 50%;
+		display: block;
+		margin: auto;
 	}
 	.features-card .features-desc h5 {
 		font-size: 16px;
