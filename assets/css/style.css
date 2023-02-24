@@ -475,7 +475,8 @@ body {
 
 	/* features */
 	.features-projects {
-		margin: 0 1rem;
+		padding: 0;
+		margin: 0;
 	}
 	.features-projects .features-header {
 		margin-top: 2rem;
