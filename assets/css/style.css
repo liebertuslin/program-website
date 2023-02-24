@@ -281,13 +281,14 @@ body {
 	}
 	.access-button .button {
 		width: 100%;
-		padding: 0;
+		padding: .3rem 0;
 	}
 	.access-button .button a {
 		font-size: 14px;
 	}
 	.access-button .button-next {
 		margin-top: .5rem;
+		border: 1px solid #1A5653;
 	}
 	.nav-item:after{
 		display: none;
