@@ -290,6 +290,12 @@ body {
 		margin-top: .5rem;
 		border: 1px solid #1A5653;
 	}
+	#sidebar-right {
+		margin-top: .5rem;
+	}
+	#sidebar-right img {
+		width: 100%;
+	}
 	.nav-item:after{
 		display: none;
 	}
