@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
   font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
 }
 
 body {
@@ -176,8 +177,11 @@ body {
 .dropdown-toggle::after {
 	display: none;
 }
+.jumbotron-hero .row {
+	margin: 2.5rem .5rem;
+}
 .emutan-logo img {
-	margin-left: 1rem;
+	margin-left: .5rem;
 }
 .dropdown-item {
 	padding: 3px 15px;
@@ -212,7 +216,25 @@ body {
 }
 
 /* jumbotron */
-
+.jumbotron {
+	overflow: hidden;
+}
+.jumbotron-content, #sidebar-right img{
+	margin-top: 1.5rem;
+}
+.jumbotron-content h1 {
+	font-weight: 650;
+}
+.jumbotron-content span {
+	color: rgba(55, 146, 55, 1);
+	font-weight: 650;
+}
+.jumbotron-desc {
+	margin-top: .5rem;
+}
+.access-button {
+	margin-top: 3rem;
+}
 .access-button li {
 	display: inline-block;
 }
@@ -238,15 +260,31 @@ body {
 ================================================== */
 @media screen and (max-width: 480px) { 
 	/* #index ================================================== */
+	.emutan-logo img {
+		margin: 0;
+	}
 	.jumbotron-content {
 		margin: 0;
 		padding: 0;
 	}
-	.emutan-logo img {
-		margin: 0;
+	.jumbotron-content h1 {
+		font-size: 19px;
+		text-align: left;
 	}
-	h1{
-		font-size: 38px;
+	.jumbotron-desc {
+		margin-top: 1rem;
+		font-size: 15px;
+	}
+	.access-button {
+		text-align: center;
+		margin-top: 1.5rem;
+	}
+	.access-button .button {
+		width: 100%;
+		padding: 0;
+	}
+	.access-button .button-next {
+		margin-top: .5rem;
 	}
 	.nav-item:after{
 		display: none;
