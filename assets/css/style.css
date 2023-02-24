@@ -210,6 +210,9 @@ body {
 	font-weight: 500;
 	background-color: rgb(248,249,250);
 }
+
+/* jumbotron */
+
 .access-button li {
 	display: inline-block;
 }
