@@ -217,6 +217,13 @@ body {
 
 /* jumbotron */
 .jumbotron {
+	display: flex;
+}
+.jumbotron-container {
+	display: flex;
+	justify-content: space-between;
+}
+.jumbotron {
 	overflow: hidden;
 }
 .jumbotron-content, #sidebar-right img{
@@ -255,6 +262,25 @@ body {
 .access-button .button-next a {
 	color: rgba(26, 86, 83, 1) !important;
 }
+.funding-container {
+	background-color: #1A5653;
+	padding: 3rem;
+	border: 1px solid #1A5653;
+	border-radius: 2rem;
+}
+.funding-desc {
+	margin-left: .5rem;
+}
+.funding-desc h5 {
+	color: rgba(255, 208, 0, 1) !important;
+	font-size: 16px;
+	margin: 0;
+}
+.funding-desc p {
+	font-size: 14px;
+	color: #ffffff !important;
+}
+
 
 /* #Media
 ================================================== */
