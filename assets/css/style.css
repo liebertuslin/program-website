@@ -283,6 +283,9 @@ body {
 		width: 100%;
 		padding: 0;
 	}
+	.access-button .button a {
+		font-size: 14px;
+	}
 	.access-button .button-next {
 		margin-top: .5rem;
 	}
