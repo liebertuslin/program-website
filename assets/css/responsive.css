@@ -1,0 +1,90 @@
+
+/* #Media query
+================================================== */
+@media screen and (max-width: 480px) { 
+	/* INDEX Page */
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  h1 {
+		font-size: 1rem !important;
+	}
+  p, a {
+    font-size: 12px !important;
+  }
+  .access-button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .access-button .button {
+   width: 100%; 
+   text-align: center;
+  }
+  .access-button .button:nth-child(2) {
+    border: 1px solid rgba(26, 86, 83, 1);
+  }
+
+  /* FUNDING Projects */
+  .hero-section {
+    margin-top: 5rem;
+  }
+
+  /*  */
+
+  /* NAVBAR */
+	.nav-item:after{
+		display: none;
+	}
+	.nav-item::before {
+		position: absolute;
+		display: block;
+		top: 15px;
+		left: 0;
+		width: 11px;
+		height: 1px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+	}
+	.dropdown-toggle::after {
+		position: absolute;
+		display: block;
+		top: 10px;
+		left: -23px;
+		width: 1px;
+		height: 11px;
+		content: "";
+		border: none;
+		background-color: #000;
+		vertical-align: 0;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"]::after{
+		transform: rotate(90deg);
+		opacity: 0;
+	}
+	.dropdown-menu {
+		padding: 0 !important;
+		background-color: transparent;
+		box-shadow: none;
+		transition: all 200ms linear;
+	}
+	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+		margin-top: 10px !important;
+		margin-bottom: 20px !important;
+	}
+	body.dark .nav-item::before {
+		background-color: #fff;
+	}
+	body.dark .dropdown-toggle::after {
+		background-color: #fff;
+	}
+	body.dark .dropdown-menu {
+		background-color: transparent;
+		box-shadow: none;
+	}
+}
