@@ -4,8 +4,6 @@
 @media screen and (max-width: 480px) { 
 	/* INDEX Page */
   body {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
@@ -21,6 +19,7 @@
   }
   .access-button .button {
    width: 100%; 
+   margin-bottom: 5px;
    text-align: center;
   }
   .access-button .button:nth-child(2) {
@@ -29,7 +28,7 @@
 
   /* FUNDING Projects */
   .hero-section {
-    margin-top: 5rem;
+    margin-top: 5.5rem;
   }
 
   /*  */
