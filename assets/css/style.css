@@ -312,7 +312,9 @@ body {
 /* features */
 .features {
 	box-sizing: border-box;
-	height: 100vh;
+	height: 70vh;
+	display: block;
+	margin: 35px auto;
 }
 .feature-content {
 	text-align: center;
