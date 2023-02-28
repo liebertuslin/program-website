@@ -310,6 +310,46 @@ body {
 }
 
 /* features */
+.features {
+	box-sizing: border-box;
+	height: 100vh;
+}
+.feature-content {
+	text-align: center;
+	width: 550px;
+	margin: auto;
+}
+.features .feature-content p span {
+	color: rgba(55, 146, 55, 1);
+	font-weight: 500;
+}
+.feature-card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 1rem;
+}
+.features .container-fluid .feature-card .feature-description {
+	margin-top: 1em;
+}
+.features .container-fluid .feature-card .feature-description span.card-title {
+	font-weight: bold;
+}
+.features .container-fluid .feature-card .feature-description p {
+	font-size: 14px;
+	margin-top: 1em;
+}
+.features .container-fluid .feature-card .btn-next a, i {
+	color: #1A5653;
+	font-weight: 500;
+}
+.features .container-fluid .feature-card .btn-next a:hover {
+	text-decoration: none;
+}
+.features .container-fluid .feature-card .btn-next i {
+	position: relative;
+	top: 4px;
+}
+
 
 
 

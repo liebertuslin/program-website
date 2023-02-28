@@ -28,8 +28,50 @@
 
   /* FUNDING Projects */
   .hero-section {
-    margin-top: 5.5rem;
-    /* margin: ; */
+    margin-top: 6rem;
+  }
+  .funding-container {
+    border: .5px solid #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+  }
+  .hero-section  h5 {
+    color: #1A5653 !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .hero-section  p {
+    color: black !important;
+  }
+
+  /* FEATURES Projects */
+  .features .feature-content {
+    width: 100%;
+    text-align: center;
+  }
+  .features .feature-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .features .feature-content p > span {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .feature-card {
+    margin-bottom: 10px;
+  }
+  .feature-card img {
+    display: block;
+    margin: auto;
+  }
+  .feature-description span {
+    display: block;
+    text-align: center;
+  }
+  .feature-description p {
+    text-align: justify;
   }
 
   /*  */
